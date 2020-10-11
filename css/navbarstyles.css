@@ -1,0 +1,8 @@
+@import url(https://fonts.googleapis.com/css2?family=Archivo+Black&family=Concert+One&family=Fredoka+One&display=swap );
+
+.nav-text{
+    color: white !important;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }

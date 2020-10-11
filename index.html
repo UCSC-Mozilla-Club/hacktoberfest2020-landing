@@ -1,135 +1,176 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/Icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Escape The Loop</title>
-  </head>
-  <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="#">
-          <img src="img/Icon.png" width="112" height="28" />
-        </a>
 
-        <a
-          role="button"
-          class="navbar-burger burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/Icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css" />
 
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item"> Home </a>
 
-          <a class="navbar-item"> Terms and Conditions </a>
-        </div>
+  <!-- custom Styles -->
 
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-primary"> Start Hacking </a>
+  <!-- navbar -->
+  <link rel="stylesheet" href="css/navbarstyles.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+  <title>Escape The Loop</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #072540;color: white;">
+    <a class="navbar-brand" href="#"><img src="/img/Icon.png" width="50px" /> Hacktoberfest 2020</a>
+    <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon " ></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav  navbar-left">
+        <li class="nav-item active">
+          <a class="nav-text nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class=" nav-text nav-link" href="#">Theme</a>
+        </li>
+        <li class="nav-item">
+          <a class=" nav-text nav-link" href="#">Prizes</a>
+        </li>
+        <li class="nav-item">
+          <a class=" nav-text nav-link" href="#">How to Participate</a>
+        </li>
+        <li class="nav-item">
+          <a class=" nav-text nav-link" href="#">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class=" nav-text nav-link" href="#">Community Support</a>
+        </li>
+        <li class="nav-item">
+          <a class=" nav-text nav-link" href="#">Contact Details</a>
+        </li>
+
+
+
+        <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </div>
-        </div>
-      </div>
-    </nav>
+          </li> -->
+      </ul>
+      <ul class="nav navbar-nav navbar-end">
+        <li class="nav-item">
+          <button class="btn btn-primary">Start Hacking</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <div class="content">
-      <div class="row has-text-centered mt-2">
-        <img class="banner-img" src="img/logo.png" alt="" />
-        <div class="field is-grouped mt-2 justify-center">
-          <p class="control">
-            <button class="button blue-button">Register For The Event</button>
-          </p>
-          <p class="control">
-            <button class="button off-blue-button">Submit Your Project</button>
-          </p>
-        </div>
-      </div>
-
-      <div class="row mt-4 pl-2 pr-2">
-        <div class="columns">
-          <div class="column is-6 has-text-centered">
-            <img class="banner-img" src="img/logo.png" alt="" />
-          </div>
-          <div class="column is-6">
-            <h1 class="title is-2">What is <strong>Hacktoberfest</strong>?</h1>
-            <p>
-              Hacktoberfest is a month-long celebration of open source software
-              run by DigitalOcean and DEV. Hacktoberfest is open to everyone in
-              our global community. To participate, four pull requests must be
-              submitted to public GitHub repositories. You can sign up anytime
-              between 1st of October and 31st of October.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row mt-2 pl-2 pr-2">
-        <h1 class="title is-3">Event Details</h1>
-        <p>
-          Hacktoberfest® is open to everyone in our global community. Whether
-          you’re a developer, student learning to code, event host, or company
-          of any size, you can help drive growth of open source and make
-          positive contributions to an ever-growing community. All backgrounds
-          and skill levels are encouraged to complete the challenge.
-          Hacktoberfest is a celebration open to everyone in our global
-          community. Pull requests can be made in participating GitHub-hosted
-          repositories/projects, classified with the Hacktoberfest topic. You
-          can sign up anytime between October 1 and October 31.
+  <div class="content">
+    <div class="row has-text-centered mt-2">
+      <img class="banner-img" src="img/logo.png" alt="" />
+      <div class="field is-grouped mt-2 justify-center">
+        <p class="control">
+          <button class="button blue-button">Register For The Event</button>
         </p>
-        <h1 class="title is-3 mt-2">Rules</h1>
-        <p>
-          To earn your Hacktoberfest tee or tree reward, you must register and
-          make four valid pull requests (PRs) between October 1-31 (in any time
-          zone). PRs can be made to participating public repos on GitHub, those
-          that have the Hacktoberfest topic. If a maintainer reports your pull
-          request as spam or behavior not in line with the project’s code of
-          conduct, you will be ineligible to participate. This year, the first
-          70,000 participants who successfully complete the challenge will be
-          eligible to receive a prize.
+        <p class="control">
+          <button class="button off-blue-button">Submit Your Project</button>
         </p>
       </div>
+    </div>
 
-      <div class="row mt-2 has-text-centered prizes pl-2 pr-2">
-        <h1 class="title is-3">Prizes</h1>
-        <div class="columns">
-          <div class="column is-4">
-            <div class="card prize-card">
-              <div class="card-content">
-                <img src="img/Icon.png" alt="" />
-                <p class="title is-5 mt-1">Winner</p>
-              </div>
+    <div class="row mt-4 pl-2 pr-2">
+      <div class="columns">
+        <div class="column is-6 has-text-centered">
+          <img class="banner-img" src="img/logo.png" alt="" />
+        </div>
+        <div class="column is-6">
+          <h1 class="title is-2">What is <strong>Hacktoberfest</strong>?</h1>
+          <p>
+            Hacktoberfest is a month-long celebration of open source software
+            run by DigitalOcean and DEV. Hacktoberfest is open to everyone in
+            our global community. To participate, four pull requests must be
+            submitted to public GitHub repositories. You can sign up anytime
+            between 1st of October and 31st of October.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-2 pl-2 pr-2">
+      <h1 class="title is-3">Event Details</h1>
+      <p>
+        Hacktoberfest® is open to everyone in our global community. Whether
+        you’re a developer, student learning to code, event host, or company
+        of any size, you can help drive growth of open source and make
+        positive contributions to an ever-growing community. All backgrounds
+        and skill levels are encouraged to complete the challenge.
+        Hacktoberfest is a celebration open to everyone in our global
+        community. Pull requests can be made in participating GitHub-hosted
+        repositories/projects, classified with the Hacktoberfest topic. You
+        can sign up anytime between October 1 and October 31.
+      </p>
+      <h1 class="title is-3 mt-2">Rules</h1>
+      <p>
+        To earn your Hacktoberfest tee or tree reward, you must register and
+        make four valid pull requests (PRs) between October 1-31 (in any time
+        zone). PRs can be made to participating public repos on GitHub, those
+        that have the Hacktoberfest topic. If a maintainer reports your pull
+        request as spam or behavior not in line with the project’s code of
+        conduct, you will be ineligible to participate. This year, the first
+        70,000 participants who successfully complete the challenge will be
+        eligible to receive a prize.
+      </p>
+    </div>
+
+    <div class="row mt-2 has-text-centered prizes pl-2 pr-2">
+      <h1 class="title is-3">Prizes</h1>
+      <div class="columns">
+        <div class="column is-4">
+          <div class="card prize-card">
+            <div class="card-content">
+              <img src="img/Icon.png" alt="" />
+              <p class="title is-5 mt-1">Winner</p>
             </div>
           </div>
-          <div class="column is-4">
-            <div class="card prize-card">
-              <div class="card-content">
-                <img src="img/Icon.png" alt="" />
-                <p class="title is-5 mt-1">Winner</p>
-              </div>
+        </div>
+        <div class="column is-4">
+          <div class="card prize-card">
+            <div class="card-content">
+              <img src="img/Icon.png" alt="" />
+              <p class="title is-5 mt-1">Winner</p>
             </div>
           </div>
-          <div class="column is-4">
-            <div class="card prize-card">
-              <div class="card-content">
-                <img src="img/Icon.png" alt="" />
-                <p class="title is-5 mt-1">Winner</p>
-              </div>
+        </div>
+        <div class="column is-4">
+          <div class="card prize-card">
+            <div class="card-content">
+              <img src="img/Icon.png" alt="" />
+              <p class="title is-5 mt-1">Winner</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
