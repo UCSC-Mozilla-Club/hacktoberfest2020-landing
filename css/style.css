@@ -3,6 +3,7 @@
 @import url('./helpers.css');
 @import url('./animate.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swaphttps://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 html, nav, body{
     font-family: 'Inter', sans-serif;
@@ -10,11 +11,50 @@ html, nav, body{
     background-color: #072540 !important;
 }
 
+ h1, h2, h3, h4, h5, h6, .h1 {
+    color: white !important;
+}
 .title{
     color: #FFF !important;
 }
 strong{
     color: #ff8ae2 !important;
+
+}
+.lager{
+    /* color:black !important ; */
+    font-size: 17px !important;
+    /* font-weight: bold !important;     */
+}
+
+.lagerh3{
+    /* color:black !important ; */
+    font-size: 22px !important;
+    font-weight: bold !important;    
+}
+.lagerIM{
+    /* color:black !important ; */
+    font-size: 15px !important;   
+}
+.abouth2{
+    /* color:black !important ; */
+    font-size: 23px !important;
+    font-weight: bold !important;  
+    color: #fd117f !important;   
+}
+.aboutsubmit{
+    /* color:black !important ; */
+    font-size: 21px !important;
+    font-weight: bold !important;  
+    color: #fd117f !important;   
+}
+.abouth3{
+    font-size: 17px !important;   
+}
+.contactfont{
+
+	color: black !important;
+
 }
 .justify-center{
     justify-content: center !important;
@@ -22,29 +62,275 @@ strong{
 .navbar-item img {
     max-height: 5rem;
 }
+
 .navbar-item > .buttons > .button{
     background-color: #0069ff !important;
 }
 .navbar-item{
     color: #FFF; 
 }
-.banner-img{
-    height: 300px;
+
+.content{
+    margin-top: 100px;
+    
 }
+.banner-img{
+    height: auto;
+    max-height: 500px;
+}
+.cardx {
+    color: violet !important;
+}
+
 .blue-button{
-    color: #FFF;
+    color: rgb(238, 226, 226);
     background-color: #0069ff;
     border: none;
+    border-radius: 20px;
+    font-family: 'Concert One', cursive;
+    font-size: 17px;
 }
 .off-blue-button{
     color: #000;
-    background-color: #93c2db;
+    background-color: #6dc5f5;
     border: none;
+    border-radius: 20px;
+    font-family: 'Concert One', cursive;
+    font-size: 17px;
 }
 .prizes{
-    background-color: #183d5d !important;
     padding: 2rem;
 }
 .prize-card{
-    background-color:#072540 !important;
+    background-color:#082642 !important;
+}
+
+  .happycode{
+    font-family: 'Concert One', cursive; 
+    color: #ef83d4 !important;
+    font-size: 30px !important;
+    margin-top: 30px;
+  }
+
+
+
+#participate {
+	background: #F5F5F5;
+}
+
+.rulesec li {
+	color: #f0f2f3;
+    font-weight: 300;
+    font-size: 17px;
+	
+}
+.rulesec a {
+	color: #f0f2f3;
+    font-weight: 300;
+    font-size: 17px;
+	
+}
+
+.content {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 60px 30px;
+	position: relative;
+	z-index: 2;
+}
+
+
+
+/*Contact Us*/
+
+.contact-us{
+  width: 80%;
+  background: #183d5d3b;
+  padding: 50px;
+  margin: auto auto;
+  border-radius: 30px;
+  position: relative;
+  font-family: 'Concert One', cursive;
+}
+.contactfont{
+    color: #f3f5f4 !important;
+}
+.title h1{
+  color: #ff10b7;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form,
+.form-items{
+  width: 100%;
+}
+
+.form-items .input{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  background: #a1c3e6;
+  border: 0px;
+  outline: none;
+  border-radius: 30px;
+}
+
+.form-items .input.message{
+  height: 125px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 15px 15px;
+  resize: none;
+}
+
+.btn{
+  background: #ff8ae2;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  width: 100px;
+}
+
+.btn .fas{
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.form-items{
+  position: relative;
+}
+
+.form-items .fas{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #f0eff8;
+}
+
+.social-icons{
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  width: 200px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons div{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+.social-icons div .fab{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+
+.social-icons div.facebook{
+  background: #5178d9;
+}
+#footer {
+	background:#2D3E48;
+}
+#footer:after {
+    background:rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 5px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.footer {
+	padding: 75px 0;
+}
+.align-left{
+	text-align:left !important;
+}
+.footer a {
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.align-center{
+    text-align:center;	
+}
+
+/* Go To Top */
+#go-top {
+	bottom: 40px;
+    height: 40px;
+    position: relative;
+    width: 40px;
+    z-index: 9999;
+    margin: 0 auto;
+}
+#go-top a {
+	background: rgba(0, 0, 0, 0.2);
+    border: 1px dashed #5C717D;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: block;
+    height: 100%;
+    line-height: 37px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+#go-top a .fa {
+}
+#go-top a:hover {
+	background: rgba(0, 0, 0, 0.4);
+}
+.footer-logo{
+	border: 1px dashed #5C717D;
+	background:rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+	
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+	
+} 
+
+
+.footer-text {
+	margin: 10px 0 0 0;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.copyright {
+	text-transform: uppercase;
+	margin: 35px 0 0 0;
+}
+
+.footer a:hover {
+	color: white;
+}
+.footer a:hover i {
+	color: white;
 }
