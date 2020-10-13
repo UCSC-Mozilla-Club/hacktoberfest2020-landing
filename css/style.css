@@ -14,6 +14,10 @@ html, nav, body{
  h1, h2, h3, h4, h5, h6, .h1 {
     color: white !important;
 }
+.justify-text{
+  text-align: justify !important;
+}
+
 .title{
     color: #FFF !important;
 }
@@ -40,7 +44,7 @@ strong{
     /* color:black !important ; */
     font-size: 23px !important;
     font-weight: bold !important;  
-    color: #fd117f !important;   
+    color: #6dc5f5 !important;   
 }
 .aboutsubmit{
     /* color:black !important ; */
@@ -86,16 +90,15 @@ strong{
     color: rgb(238, 226, 226);
     background-color: #0069ff;
     border: none;
-    border-radius: 20px;
-    font-family: 'Concert One', cursive;
     font-size: 17px;
+}
+.blue-button:hover{
+  color: #ef83d4 !important;
 }
 .off-blue-button{
     color: #000;
     background-color: #6dc5f5;
     border: none;
-    border-radius: 20px;
-    font-family: 'Concert One', cursive;
     font-size: 17px;
 }
 .prizes{
@@ -106,7 +109,6 @@ strong{
 }
 
   .happycode{
-    font-family: 'Concert One', cursive; 
     color: #ef83d4 !important;
     font-size: 30px !important;
     margin-top: 30px;
@@ -118,13 +120,13 @@ strong{
 	background: #F5F5F5;
 }
 
-.rulesec li {
-	color: #f0f2f3;
-    font-weight: 300;
-    font-size: 17px;
-	
+.rules-link{
+  color: #6dc5f5 !important;
 }
-.rulesec a {
+a.rules-link:hover{
+  color: #fd117f !important
+}
+.rulesec li {
 	color: #f0f2f3;
     font-weight: 300;
     font-size: 17px;
@@ -145,20 +147,16 @@ strong{
 /*Contact Us*/
 
 .contact-us{
-  width: 80%;
   background: #183d5d3b;
   padding: 50px;
   margin: auto auto;
-  border-radius: 30px;
   position: relative;
-  font-family: 'Concert One', cursive;
 }
 .contactfont{
     color: #f3f5f4 !important;
 }
 .title h1{
   color: #ff10b7;
-  letter-spacing: 5px;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -176,23 +174,22 @@ strong{
   background: #a1c3e6;
   border: 0px;
   outline: none;
-  border-radius: 30px;
 }
 
 .form-items .input.message{
   height: 125px;
-  border-radius: 15px;
   margin-bottom: 30px;
   padding: 15px 15px;
   resize: none;
 }
 
 .btn{
-  background: #ff8ae2;
+  background-color: #ff8ae2;
+  color: #FFF !important;
   text-align: center;
-  color: rgb(0, 0, 0);
+  border: none;
   padding: 12px;
-  border-radius: 25px;
+  border-radius: 5px;
   cursor: pointer;
   font-size: 15px;
   font-weight: 400;
