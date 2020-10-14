@@ -331,3 +331,8 @@ a.rules-link:hover{
 .footer a:hover i {
 	color: white;
 }
+
+/* terms */
+.termsH1 {
+  color: #ef83d4 !important;
+}
