@@ -17,7 +17,15 @@ html, nav, body{
 .navbar-burger > span{
   color: #fff !important;
 }
-
+.text-white{
+  color: #fff !important
+}
+.text-pink{
+  color: #ff8ae2 !important;
+}
+.team-text{
+  font-size: 0.9rem;
+}
 @media screen and (max-width: 1023px){
   .navbar-menu {
     background-color: #072540 !important;
